@@ -1,0 +1,41 @@
+# Configuration files
+config.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Downloads and data files
+downloads/
+wrds_data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pickle
+*.pkl
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# 保持這些文件不被忽略
+!requirements.txt
+!Procfile
+
+# 其他忽略規則保持不變... 
